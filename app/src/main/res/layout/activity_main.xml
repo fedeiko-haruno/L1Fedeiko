@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FCBACB"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/someTextChange"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/some"
+        android:fontFamily="@font/font3"
+        android:textColor="#C22971"
+        android:textSize="60sp" />
+
+    <Button
+        android:id="@+id/btnChangeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#D32376"
+        android:fontFamily="@font/font5"
+        android:gravity="center"
+        android:text="@string/bntClick"
+        android:textColor="#F9A6D0"
+        android:textSize="24sp" />
+
+
+</LinearLayout>
